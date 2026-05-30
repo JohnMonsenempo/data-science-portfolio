@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score
 # 1. Charger
 df = pd.read_csv("iris.csv")
 df = df.drop(columns=["Id"])  # ← colonne inutile supprimée
-print(f"Dataset chargé : {df.shape[0]} fleurs, {df.shape[1]} colonnes ✅")
+print(f"Dataset chargé : {df.shape[0]} fleurs, {df.shape[1]} colonnes")
 
 # 2. Visualiser
 couleurs = {"Iris-setosa": "steelblue", "Iris-versicolor": "coral", "Iris-virginica": "green"}
