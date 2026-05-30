@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score
 
 # 1. Charger
 df = pd.read_csv("zoo.csv")
-print(f"Dataset chargé : {df.shape[0]} animaux, {df.shape[1]} colonnes ✅")
+print(f"Dataset chargé : {df.shape[0]} animaux, {df.shape[1]} colonnes ")
 
 # 2. Visualiser
 couleurs = {1: "steelblue", 2: "coral", 3: "green",
