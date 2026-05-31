@@ -67,7 +67,7 @@ for mois, pred in zip(noms_mois, predictions):
     print(f"Ventes prédites {mois} : {pred:.0f}€")
 
 # 4. Sauvegarder
-fig.savefig("dashboard_ventes.png")   # ✅ avant show()
+fig.savefig("dashboard_ventes.png")   # avant show()
 plt.show()
 df.to_csv("rapport_ventes.csv", index=False)
-print("\n✅ Dashboard sauvegardé !")
+print("\n Dashboard sauvegardé !")
